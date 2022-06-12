@@ -39,9 +39,9 @@ Using Campeonato Brasileiro 2022, the teams numbers are:
 
 Go to "predicao" and pass the teams playing in the fixture you want the algorithm to predict. So, a match between Fortaleza and Ceara, should be passed as `[13, 7]`
 The result will be either 0, 1 or 2, meaning:
-0. Defeat of the home team
-1. Draw
-2. Victory of the home team
+<br> `0` - Defeat of the home team
+<br> `1` - Draw
+<br> `2` - Victory of the home team
 
 So, in our example, 0 means Ceara wins, 1 means draw and 2 means Fortaleza wins.
 
