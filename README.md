@@ -5,7 +5,7 @@ Predicts the results of Campeonato Brasileiro's fixtures, using Naive Bayes
 First, you need to make sure you have Python3 installed on your computer. To do this, simply go to your terminal or command prompt and write `python`, then hit Enter e see if prompts Python. If it doesn't, go to [Python website](https://www.python.org/downloads/) and download the latest version of Python3. After installing python, open your terminal/command prompt again and write `pip install jupyterlab`. This will download and install JupyterLab, which will be important since the script is currently made using jupyterlab's notebooks.
 
 ## How to use
-Download the [Resultados_Brasileirao.ipynb]() and open it using the JupyterLab's notebooks. You should see three arrays:
+Download the [Resultados_Brasileirao.ipynb](https://github.com/rodrigopc-bit/resultados-brasileirao/blob/main/Resultados_Brasileirao.ipynb) and open it using the JupyterLab's notebooks. You should see three arrays:
 1. `equipeCasa[]` - Home teams, with each line representing 1 fixture
 2. `equipeFora[]` - Away teams, with each line representing 1 fixture
 3. `resultadoPartida[]` - Results of each match. The results can be passed as Vitoria (Victory), Empate (Draw) or Derrota (Defeat) and they're always based on the Home Teams, meaning if the Away Teams wins, you should pass as Derrota (Defeat), since that means the Home Team lost the match.
